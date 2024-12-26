@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Survey Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css" >
+    </head>
+    <body>
+      <header>
+        <h1 id="title">HOW ARE WE WASTING OUR LIFE</h1>
+        <p id="description">thank you for taking the time to help me know that i'm not the only one</p>
+      </header> 
+    <form id="survey-form">
+        <fieldsheet>
+            <label id="name-label" for="name">name<input type="text" id="name" placeholder="enter your name" required></label>
+
+            <label id="number-label" for="number">age(optional)<input id="number" placeholder="years you have spent wasting" min="18" max="100" type="number"></label>
+            <label for="career-status">current burden(occupation)
+                <input id="career-status" placeholder="under-someone or under someone">
+            </label>
+            <label for="stages" class="lower">stages of hell you have been through</label><br>
+            <input type="checkbox" value="a" class="inline"><text>someone beautiful stole(*broke) your heart</text><br>
+            <input type="checkbox" value="b" class="inline"><text>2 piece of paper cant decide your future(failed in exam)</text><br>
+            <input type="checkbox" value="c" class="inline"><text>left job for some better(fired)</text><br>
+            <input type="checkbox" value="d" class="inline"><text>you don't like your family(opposite)</text><br>
+            <input type="checkbox" value="e" class="inline"><text>your partner is loyal (L.D.R.)</text><br>
+            <input placeholder="some other kind of hells that i'm missing.">
+        </fieldsheet>
+            <legend>current mental status</legend><br>
+                <label>
+                    <input type="radio" class="inline" name="options" value="1"><text>fuc*ked</text>
+                </label><br>
+                <label>
+                    <input type="radio" class="inline" name="options" value="2"><text>fuc*ked up</text>
+                </label><br>
+                <label>
+                    <input type="radio" class="inline" name="options" value="3"><text>double fuc*ked up</text>
+                </label><br>
+                <label>
+                    <input type="radio" class="inline" name="options" value="4"><text>unlimited times fuc*ked up</text>
+                </label><br>
+        <fieldset>
+            <label id="email-label" for="email">email-id if you want to share:
+                <input type="email" id="email" placeholder="official email address" required>
+            </label>
+            <label for="dropdown">do you like this page?
+                <select id="dropdown">
+                    <option value="1" name="feedbacks">yes</option>
+                    <option value="1" name="feedbacks">ofc yes</option>
+                    <option value="1" name="feedbacks">okay okay</option>
+                </select>
+            </label>
+            <label for="improvement">how can i improve this page?
+                <textarea id="improvement" name="improvement" placeholder="you dont have to..."></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" id="submit" class="submit">
+    </form>
+        
+    </body>
+</html>
